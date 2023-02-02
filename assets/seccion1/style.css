@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+.contenedor__seccion1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+      
+
+}
+.contenedor{
+
+}
+
+.fotografia{
+    border:  1px solid orange;
+    width: 70%;
+    max-width: 350px;
+   
+}
+@media only screen and (min-width: 768px){  
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+
+    }
+    .fotografia{
+        width: 700px;
+        
+    }
+    .contenedor--descripcion{
+        margin-top: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        
+    }
+}

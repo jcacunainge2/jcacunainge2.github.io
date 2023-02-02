@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor__img--logo{
+    background-image: url("../img/fondoInicio.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen__logo{
+    width: 70%;
+    max-width: 450px;
+    
+}
+.contenedor--nav{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 6, 18);
+}
+.contenedor--nav a{
+    font-family: 'Source Code Pro', monospace;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+.contenedor--nav a:hover{
+    transform: scale(1.15);
+    text-decoration: underline;
+}
+@media only screen and (min-width: 768px){
+    .contenedor--nav{
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    .contenedor--nav a{
+        margin-right: 1.5rem;
+    }
+}
+
+
+
+
+
+

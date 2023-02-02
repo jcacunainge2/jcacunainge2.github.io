@@ -1,0 +1,42 @@
+.proyecto1{
+    display: flex;
+}
+.proyectos{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 1.5rem auto;
+    box-shadow: 2px 5px 4px 1px black;
+    max-width: 400px;
+}
+.imgProyecto{ 
+    display: flex;
+    justify-content: center; 
+
+}
+.subcontenedor{
+    text-align: center;
+}
+
+.descripcionPoryecto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.carousel-item img {
+    max-width: 500px;
+    height: auto;
+  }
+
+.descripcionProyecto{
+    padding: 1rem;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+  }
+
+.contenedor--enlace__proyecto{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+  }
+  

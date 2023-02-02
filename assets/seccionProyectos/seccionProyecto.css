@@ -1,0 +1,14 @@
+.contenedorProyectos{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 6, 18);
+
+}
+.contenedorNavegarProyectos{
+
+}
+
+.proyectos{
+    width: 40%;
+}
